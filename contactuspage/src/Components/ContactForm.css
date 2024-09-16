@@ -1,0 +1,34 @@
+
+.container_section{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.top_btn{
+    display: flex;
+    gap: 32px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form_controler{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   gap: 5px;
+}
+
+.form_controler input{
+    height: 40px;
+    padding: 0 8px;
+}
+
+.form_controler label{
+  text-align: start;
+  font-weight: 500;
+}
