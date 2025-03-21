@@ -31,8 +31,9 @@ npm run dev
 If you (or someone else) clones the repo, do the following:
 
 1️⃣ Install dependencies:
-
 npm install
+
+
 2️⃣ Open .env and add the actual API key.
 3️⃣ Start the project:
 
