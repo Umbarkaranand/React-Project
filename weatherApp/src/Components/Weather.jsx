@@ -5,7 +5,7 @@ import "./Weather.css"; // Import CSS file
 const Weather = () => {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
-  const API_KEY = "01cf6a06f180f5bdc4bcb92416eb24fa";
+  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
   const fetchWeather = async () => {
     if (!city) return;
