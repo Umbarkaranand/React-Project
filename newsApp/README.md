@@ -1,12 +1,37 @@
-# React + Vite
+🚀 Steps to Clone & Set Up the News App from GitHub
+## 1️⃣ Clone the Repository
+Open Terminal / Command Prompt and run:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+git clone https://github.com/Umbarkaranand/React-Project.git
+👉 This will download the repository to your computer.
 
-Currently, two official plugins are available:
+## 2️⃣ Navigate to the Project Folder
+cd React-Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 3️⃣ Install Dependencies
+Make sure you have Node.js installed. Then run:
 
-## Expanding the ESLint configuration
+npm install
+👉 This installs all required packages from package.json.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 4️⃣ Add Your .env File (For API Key)
+Since your project uses an API key for GNews, create a .env file in the root directory:
+
+touch .env
+Open .env and add your API key:
+
+VITE_GNEWS_API_KEY=your_actual_api_key
+⚠️ Important:
+
+Replace your_actual_api_key with your real GNews API Key from [gnews.io.](https://gnews.io/dashboard)
+
+Ensure .env is not committed by adding it to .gitignore:
+
+echo ".env" >> .gitignore
+
+## 5️⃣ Start the Development Server
+Run the project in development mode:
+
+npm run dev
+👉 This will start the app at: http://localhost:5173 (for Vite projects)
+👉 Open it in your browser.
