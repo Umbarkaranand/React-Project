@@ -41,3 +41,6 @@ npm run dev
 
  
 # ✅ Now your React Weather App is running securely and efficiently! 🚀
+
+#   Output 
+
